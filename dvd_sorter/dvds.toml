@@ -1,0 +1,53 @@
+[genre]
+label = "genre"
+
+[[genre.animated]]
+dvd = [Big Hero 6", "A Bug's Life", "Finding Nemo", "The Incredibles", "Incredibles 2", "Inside Out",
+"Kung Fu Panda", "Kung Fu Panda 2", "The Lego Movie", "The Lego Movie 2", "The Little Mermaid", "Moana",
+"Monsters Inc.", "Mr Peabody and Sherman", "Spider-Man: Into The Spider-Verse", "Tangled", "Toy Story",
+"Toy Story 2", "Toy Story 3", "Zootopia"]
+
+[[genre.adventure]]
+dvd = ["A Bug's Life", "Finding Nemo", "LOTR: Fellowship of the Ring", "LOTR: Two Towers", "LOTR: Return of the King",
+       "Moana", "Mr Peabody and Sherman", "Muppets Wizard of Oz", "Toy Story", "Toy Story 2", "Toy Story 3"]
+
+[[genre.comedy]]
+dvd = ["Hotel for Dogs", "Inside Out", "Kung Fu Panda", "Kung Fu Panda 2", "The Lego Movie", "Mean Girls", "Scooby-Doo",
+       "Scooby-Doo 2", "Spider-Man: Homecoming", "Zootopia"]
+
+[[genre.drama]]
+dvd = ["Contagion", "La La Land", "Little Women"]
+
+[[genre.fantasy]]
+dvd = ["The Little Mermaid", "LOTR: Fellowship of the Ring", "LOTR: Two Towers", "LOTR: Return of the King", "Moana", "Muppets Wizard of Oz",
+       "Scooby-Doo", "Scooby-Doo 2", "Tangled", "Toy Story", "Toy Story 2", "Toy Story 3"]
+
+[[genre.musical]]
+dvd = ["La La Land", "The Little Mermaid", "Moana", "Muppets Wizard of Oz", "Tangled"]
+
+[[genre.scifi]]
+dvd = ["The Lego Movie 2"]
+
+[[genre.superhero]]
+dvd = ["Big Hero 6", "The Incredibles", "Incredibles 2", "Spider-Man: Homecoming", "Spider-Man: Into The Spider-Verse"]
+
+[[genre.television]]
+dvd = ["Beatrix Potter Collection", "Mr. Men and Little Miss Collection"] 
+
+[runtime]
+label = "runtime"
+
+[[runtime.under_90]]
+dvd = ["The Little Mermaid", "Scooby-Doo", "Toy Story"]
+
+[[runtime.greater_equal_90]]
+dvd = ["Kung Fu Panda", "Kung Fu Panda 2", "Toy Story 2", "Monsters Inc.", "Mr Peabody and Sherman", "Scooby-Doo 2",
+                    "A Bug's Life", "Inside Out", "Mean Girls", "Finding Nemo", "Muppets Wizard of Oz", "Hotel for Dogs", "Tangled", "The Lego Movie",
+                    "Toy Story 3", "Big Hero 6", "Contagion", "Moana", "The Lego Movie 2", "Zootopia", "The Incredibles", "Spider-Man: Into The Spider-Verse",
+                    "Incredibles 2"]
+
+[[runtime.greater_equal_120]]
+dvd = ["La La Land", "Little Women", "LOTR: Fellowship of the Ring", "LOTR: Two Towers", "Spider-Man: Homecoming"] # greater than or equal to 120 mins
+
+[[runtime.greater_equal_180]]
+dvd = ["LOTR: Return of the King"]
